@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   completedTask: {
-    textDecorationLine: 'line-through', // Bug fix: Visual indication for completed task
+    textDecorationLine: 'line-through', 
     color: '#bbb',
   },
 });

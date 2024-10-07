@@ -6,10 +6,10 @@ const TaskInput = ({ onAddTask }) => {
 
   const handleAddTask = () => {
     if (taskTitle.trim().length === 0) {
-      return; // Bug fix: Prevent adding empty tasks
+      return;
     }
     onAddTask(taskTitle);
-    setTaskTitle(''); // Bug fix: Clear input after adding a task
+    setTaskTitle('');
   };
 
   return (
